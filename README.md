@@ -47,7 +47,7 @@ A modern, responsive portfolio website showcasing software engineering projects,
 
 1. Clone the repository
 ```bash
-git clone https://github.com/blaccdante/portfolio-website.git
+git clone https://github.com/oredannyofe/portfolio-website.git
 cd portfolio-website
 ```
 
@@ -137,5 +137,3 @@ Feel free to reach out if you have any questions or suggestions!
 ---
 
 **Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
-
-chore: trigger PR (no review)
