@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Oreofe Daniel Oladepo - Software Engineer Portfolio",
+  title: "Daniel Oreofe Oladepo - Software Engineer Portfolio",
   description: "Full-stack software engineer specializing in Web3, creative technologies, and modern web applications. View my projects and get in touch.",
-  keywords: ["software engineer", "web3", "frontend", "backend", "portfolio", "react", "nextjs", "oreofe", "oladepo", "blaccdante"],
-  authors: [{ name: "Oreofe Daniel Oladepo", url: "https://github.com/blaccdante" }],
+  keywords: ["software engineer", "web3", "frontend", "backend", "portfolio", "react", "nextjs", "oreofe", "oladepo", "oredannyofe"],
+  authors: [{ name: "Daniel Oreofe Oladepo", url: "https://github.com/oredannyofe" }],
   openGraph: {
-    title: "Oreofe Daniel Oladepo - Software Engineer Portfolio",
+    title: "Daniel Oreofe Oladepo - Software Engineer Portfolio",
     description: "Full-stack software engineer specializing in Web3, creative technologies, and modern web applications.",
     type: "website",
   },

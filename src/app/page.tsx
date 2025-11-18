@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Mail, Linkedin, Download, Palette, ExternalLink, Menu, X } from "lucide-react";
+import { Github, Mail, Linkedin, Download, Palette, ExternalLink, Menu, X, Cpu } from "lucide-react";
 import { useState } from "react";
 import { GitHubRepos } from "@/components/GitHubRepos";
 import { MediaGallery } from "@/components/MediaGallery";
@@ -22,9 +22,12 @@ export default function Home() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="text-xl sm:text-2xl font-bold text-white"
+              className="flex items-center space-x-2 text-xl sm:text-2xl font-bold text-white"
             >
-              Oreofe Daniel Oladepo
+              <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/30 bg-white/5 tech-logo-spin">
+                <Cpu size={18} className="text-white" />
+              </div>
+              <span>Daniel Oreofe Oladepo</span>
             </motion.div>
             
             {/* Desktop Navigation */}
@@ -244,7 +247,7 @@ export default function Home() {
       <footer className="py-6 sm:py-8 px-4 sm:px-6 border-t border-white/10">
         <div className="container mx-auto text-center">
           <p className="text-white/60 text-sm sm:text-base px-2">
-            © {new Date().getFullYear()} Oreofe Daniel Oladepo. Built with Next.js and Tailwind CSS.
+             a9 {new Date().getFullYear()} Daniel Oreofe Oladepo. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>

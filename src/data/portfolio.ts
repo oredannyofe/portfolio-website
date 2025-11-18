@@ -1,7 +1,7 @@
 import { PersonalInfo, ContactInfo, Skill, Project, Experience, Education } from '@/types/portfolio';
 
 export const personalInfo: PersonalInfo = {
-  name: "Oreofe Daniel Oladepo",
+  name: "Daniel Oreofe Oladepo",
   nickname: "BlaccDante (Blacc Inferno)",
   title: "Multidisciplinary Creative Developer | Animator | Web3 Artist",
   bio: "Self-taught 2D/3D artist, animator, and full-stack developer creating surreal digital art and innovative Web3 experiences. Inspiration drawn from cyberpunk aesthetics, music, anime, and the nuanced beauties of the world. Successfully sold NFTs and built creative technologies that bridge art and code.",
@@ -11,7 +11,7 @@ export const personalInfo: PersonalInfo = {
 export const contactInfo: ContactInfo = {
   email: "dannysoawesome@gmail.com",
   phone: "0704 112 0734",
-  github: "https://github.com/blaccdante",
+  github: "https://github.com/oredannyofe",
   linkedin: "http://linkedin.com/in/oreofe-oladepo-623595233",
   website: "linktr.ee/blaccinferno",
   behance: "https://www.behance.net/50b26f29",
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     description: "Advanced blockchain bridge protocol for seamless cross-chain transactions",
     longDescription: "A comprehensive blockchain bridge solution that enables secure and efficient cross-chain asset transfers. Built with modern Web3 technologies and smart contract integration.",
     technologies: ["React", "TypeScript", "Web3.js", "Solidity", "Node.js"],
-    githubUrl: "https://github.com/blaccdante/chainbridge-pro",
+    githubUrl: "https://github.com/oredannyofe/chainbridge-pro",
     featured: true,
     category: "web3"
   },
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     description: "Modern portfolio website built with Next.js and creative animations",
     longDescription: "A responsive portfolio website showcasing projects, skills, and experience with smooth animations and modern design principles.",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/blaccdante/portfolio-webapp",
+    githubUrl: "https://github.com/oredannyofe/portfolio-webapp",
     liveUrl: "https://blaccdante.dev",
     featured: true,
     category: "web"
@@ -89,7 +89,7 @@ export const projects: Project[] = [
     description: "RESTful API for task management with authentication and real-time updates",
     longDescription: "A scalable task management API with user authentication, real-time notifications, and comprehensive project management features.",
     technologies: ["Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"],
-    githubUrl: "https://github.com/blaccdante/task-manager-api",
+    githubUrl: "https://github.com/oredannyofe/task-manager-api",
     featured: false,
     category: "api"
   }

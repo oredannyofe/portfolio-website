@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const GITHUB_USER = "blaccdante";
+const GITHUB_USER = "oredannyofe";
 
 export async function GET() {
   try {
